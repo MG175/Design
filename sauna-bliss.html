@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Wood Elements</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (min-width: 800px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="gallery">
+        <img src="sauna1.jpg" alt="Description of image 1">
+        <img src="sauna2.jpg" alt="Description of image 2">
+        <img src="sauna3.jpg" alt="Description of image 3">
+        <img src="sauna4.jpg" alt="Description of image 4">
+    </div>
+
+</body>
+
+</html>
